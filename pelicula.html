@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Diseño y nuevos medios" />
+        <title>DNO037</title>
+        <link rel="stylesheet" href="style.css" />
+        <style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+</style>
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <p><a href="index.html">Home</a> <a href="peliculas.html">Movies</a> <a href="ganancias.html">Earnings</a></p>
+            </nav>
+            <main>
+                <section>
+                    <!--acá se meten las películas-->
+                </section>
+            </main>
+            <footer>
+                <p><a href="#">Trinidad Bravo F</a> <a href="#">DNO037</a></p>
+            </footer>
+        </div>
+
+        <!--Primero vamos a buscar la versión más reciente de jQuery-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!--Y ahora podemos usarlo-->
+        <script>
+            $(function () {
+                var n = new URLSearchParams(window.location.search).get("nro");
+                $.getJSON("./datos.json/", function (data) {
+                    console.log(data);
+                    if (n !== null) {
+                        $("section").append("<h1>" + data[n].name + "</h1><h4>" + data[n].director + " (" + data[n].year + ')</h4><img src="images/' + data[n].pic_lg + '"><p>' + data[n].description + '</p><h3>Trailer</h3><p>Watch trailer <a href="' + data[n].trailer + '" target="_blank">HERE</a><p>');
+                    } else {
+                        document.querySelector("section").innerHTML = '<h1>Something went wrong. </h1><h1>Dom Toretto is here to help! </h1><h4>Please choose any of the <a href="peliculas.html">movies</a></h4>';
+                        document.body.style.backgroundPosition = "bottom right";
+                        document.body.style.backgroundImage = 'url("images/error.jpg")';
+                        document.body.style.backgroundRepeat = "no-repeat";
+                        document.body.style.backgroundSize = "auto 90%";
+                    }
+                }); // cierro $.getJSON((){});
+            }); //cierro $(function(){});
+        </script>
+    </body>
+</html>

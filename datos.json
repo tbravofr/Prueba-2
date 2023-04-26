@@ -1,0 +1,92 @@
+[
+    {
+        "name": "The Fast and the Furious",
+        "year": 2001,
+        "director": "Rob Cohen",
+        "pic_sm": "FF1.jpg",
+        "pic_lg": "FF1-Grande.jpg",
+        "trailer": "https://www.youtube.com/watch?v=ZsJz2TJAPjw",
+        "description": "Los Angeles street racer Dominic Toretto falls under the suspicion of the LAPD as a string of high-speed electronics truck robberies rocks the area. Brian O'Connor, an officer of the LAPD, joins the ranks of Toretto's highly skilled racing crew undercover to convict Toretto. However, O'Connor finds himself both enamored with this new world and in love with Toretto's sister, Mia. As a rival racing crew gains strength, O'Connor must decide where his loyalty really lies."
+    },
+    {
+        "name": "2 Fast 2 Furious",
+        "year": 2003,
+        "director": "John Singleton",
+        "pic_sm": "FF2.jpg",
+        "pic_lg": "FF2-Grande.jpg",
+        "trailer": "https://www.youtube.com/watch?v=ZZGkV_xWGw4",
+        "description": "Brian O'Conner has left LA due to his illegal actions and now soars the streets of Miami making money here and there by street racing. Watched by Customs Agent Monica Fuentes, Brian is caught by the police and is given a deal by Agent Markham and Bilkins to go undercover and try to bring down drug lord Carter Verone in exchange for his criminal record to be erased. Brian agrees but only if he is given permission to choose his partner. Brian heads home to Barstow, California where he recruits an old friend Roman Pearce to help him. Pearce agrees but only for the same deal Brian was offered. With the help of Monica, Brian and Rome work together to take down Verone."
+    },
+    {
+        "name": "The Fast and the Furious: Tokyo Drift",
+        "year": 2006,
+        "director": "Justin Lin",
+        "pic_sm": "FF3.jpg",
+        "pic_lg": "FF3-Grande.jpg",
+        "trailer": "https://www.youtube.com/watch?v=p8HQ2JLlc4E",
+        "description": "Sean Boswell, has always been an outsider, a loner at school, his only connection to the indifferent world around him is through illegal street racing, which has made him particularly unpopular with the local authorities. To avoid jail time, Sean is sent out of the country to live with his Farther in the military, in a cramped apartment in a low-rent section of Tokyo. In the land that gave birth to the majority of modified racers on the road, the simple street race has been replaced by the ultimate pedal-to-the-metal, gravity-defying automotive challenge, drift racing, a deadly combination of brutal speed on heart stopping courses of hairpin turns and switchbacks. For his first unsuccessful foray in drift racing, Sean unknowingly takes on D.K., the 'Drift King' with ties to the Yakuza, the Japanese crime machine. The only way he can pay off the debt of his loss is to venture into the deadly realm of the Tokyo underworld, where the stakes are life and death."
+    },
+    {
+        "name": "Fast & Furious",
+        "year": 2009,
+        "director": "Justin Lin",
+        "pic_sm": "FF4.jpg",
+        "pic_lg": "FF4-Grande.jpg",
+        "trailer": "https://www.youtube.com/watch?v=k98tBkRsGl4",
+        "description": "Heading back to the streets where it all began, two men rejoin two women to blast muscle, tuner and exotic cars across Los Angeles and floor through the Mexican desert. When a crime brings them back to L.A., fugitive ex-con Dom Toretto reignites his feud with agent Brian O'Connor. But as they are forced to confront a shared enemy, Dom and Brian must give in to an uncertain new trust if they hope to outmaneuver him. And from convoy heists to precision tunnel crawls across international lines, two men will find the best way to get revenge: push the limits of what's possible behind the wheel."
+    },
+    {
+        "name": "Fast Five",
+        "year": 2011,
+        "director": "Justin Lin",
+        "pic_sm": "FF5.jpg",
+        "pic_lg": "FF5-Grande.jpg",
+        "trailer": "https://www.youtube.com/watch?v=OqjeOYeG5_A",
+        "description": "Former cop Brian O'Conner partners with ex-con Dom Toretto on the opposite side of the law. Since Brian and Mia Toretto broke Dom out of custody, they've blown across many borders to elude authorities. Now backed into a corner in Rio de Janeiro, they must pull one last job in order to gain their freedom. As they assemble their elite team of top racers, the unlikely allies know their only shot of getting out for good means confronting the corrupt businessman who wants them dead. But he's not the only one on their tail. Hard-nosed federal agent Luke Hobbs never misses his target. When he is assigned to track down Dom and Brian, he and his strike team launch an all-out assault to capture them. But as his men tear through Brazil, Hobbs learns he can't separate the good guys from the bad. Now, he must rely on his instincts to corner his prey... before someone else runs them down first."
+    },
+    {
+        "name": "Fast and Furious 6",
+        "year": 2013,
+        "director": "Justin Lin",
+        "pic_sm": "FF6.jpg",
+        "pic_lg": "FF6-Grande.jpg",
+        "trailer": "https://www.youtube.com/watch?v=C_puVuHoR6o",
+        "description": "Agent Hobbs summons Dom Toretto and his crew to London in order to take on a team of mercenary drivers who have caused havoc across a dozen countries in this pedal-to-the-metal installment of the rubber-burning action franchise. Having just earned a tidy $100 million for taking down a ruthless criminal kingpin, Dom and Brian have decided to lie low for a while. Fugitives from the law, they're constantly looking over their shoulders, no matter where they travel. Meanwhile, the malevolent leader of an elusive criminal outfit has incurred the wrath of Agent Hobbs, who has decided that the only way to shut them down is to beat them on their own turf. Realizing that Dom knows the only drivers in the world with the skills to get the job done, Agent Hobbs offers them all full pardons if they will come to London, and get back behind the wheel. The closer the renegade drivers get to the organization, however, the more apparent it becomes that Dom's former lover Letty is not only still alive, but a key figure among their ranks. Now, with their freedom finally within reach, Dom and the team reassemble for their most dangerous mission to date."
+    },
+    {
+        "name": "Furious 7",
+        "year": 2015,
+        "director": "James Wan",
+        "pic_sm": "FF7.jpg",
+        "pic_lg": "FF7-Grande.jpg",
+        "trailer": "https://www.youtube.com/watch?v=Skpu5HaVkOc",
+        "description": "Dominic and his crew thought they'd left the criminal mercenary life behind. They'd defeated international terrorist Owen Shaw and went their separate ways. But now, Shaw's brother, Deckard Shaw, is out killing the crew one by one for revenge. Worse, a Somalian terrorist called Jakarde and a shady government official called 'Mr. Nobody' are both competing to steal a computer terrorism program called 'God's Eye', that can turn any technological device into a weapon. Torretto must reconvene with his team to stop Shaw and retrieve the God's Eye program while caught in a power struggle between the terrorist and the United States government."
+    },
+    {
+        "name": "The Fate of the Furious",
+        "year": 2017,
+        "director": "F. Gary Gray",
+        "pic_sm": "FF8.jpg",
+        "pic_lg": "FF8-Grande.jpg",
+        "trailer": "https://www.youtube.com/watch?v=uisBaTkQAEs",
+        "description": "Now that Dominic Toretto and Letty Ortiz are on their honeymoon, and Brian and Mia have retired from the game, and the rest of the crew has been exonerated, the globetrotting team has found a semblance of a normal life. But when a mysterious woman seduces Dom into the world of crime he can't seem to escape, and a betrayal of those closest to him, they will face trials that will test them as never before. From the shores of Cuba and the streets of New York City to the icy plains off the arctic Barents Sea, the elite force will crisscross the globe to stop an anarchist from unleashing chaos on the world's stage, and to bring home the man who made them a family."
+    },
+     {
+        "name": "F9",
+        "year": 2021,
+        "director": "Justin Lin",
+        "pic_sm": "FF9.jpg",
+        "pic_lg": "FF9-Grande.jpg",
+        "trailer": "https://www.youtube.com/watch?v=FUK2kdPsBws",
+        "description": "Dominic Toretto leads a quiet and low-key life with Letty and their son, little Brian, but they know that danger is always lurking around every corner. This time, the threat will force Dom to face the sins of the past if he wants to save those he loves most. His usual team joins him to stop a world-shattering plan, masterminded by the most skilled assassin and elite driver to ever cross his path, and that man is none other than Jakob, Dom's forgotten brother."
+    },
+     {
+        "name": "Fast X (Coming soon)",
+        "year": 2023,
+        "director": "Justin Lin",
+        "pic_sm": "FF10.jpg",
+        "pic_lg": "FF10-Grande.jpg",
+        "trailer": "https://www.youtube.com/watch?v=32RAq6JzY-w",
+        "description": "In theaters May 18, 2023"
+    }
+]

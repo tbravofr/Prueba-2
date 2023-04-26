@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Diseño y nuevos medios" />
+        <title>DNO037</title>
+        <link rel="stylesheet" href="style.css" />
+        <style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+</style>
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <p><a href="index.html">Home</a> <a href="peliculas.html">Movies</a> <a href="ganancias.html" class="active">Earnings</a></p>
+            </nav>
+            <main>
+                <canvas id="grafico" height="40" width="100">
+                    <!--acá se mete el mapa-->
+                </canvas>
+            </main>
+            <footer>
+                <p><a href="#">Trinidad Bravo F</a> <a href="#">DNO037</a></p>
+            </footer>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.2.0/dist/chart.min.js"></script>
+    <script>
+var ctx = document.getElementById('grafico').getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ['FF1', 'FF2', 'FF3', 'FF4', 'FF5', 'FF6', 'FF7', 'FF8', 'FF9'],
+        datasets: [{
+            label: 'USD$',
+            data: [144533925, 127154901, 62514415, 155064265, 209837675, 238679850, 353007020, 226008385, 173005945],
+            backgroundColor: 'rgba(238, 99, 82, 1)',
+            borderWidth: 0
+        }]
+    },
+    options: {
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        }
+    }
+});
+</script>
+    </body>
+</html>
