@@ -28,7 +28,7 @@
         <!--Y ahora podemos usarlo-->
         <script>
             $(function () {
-                $.getJSON("./datos.json/", function (data) {
+                $.getJSON("./datos.json", function (data) {
                     console.log(data);
                     //un forEach para construir cada trabajo
                     data.forEach(function (p, i) {
