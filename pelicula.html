@@ -31,7 +31,7 @@
         <script>
             $(function () {
                 var n = new URLSearchParams(window.location.search).get("nro");
-                $.getJSON("./datos.json/", function (data) {
+                $.getJSON("./datos.json", function (data) {
                     console.log(data);
                     if (n !== null) {
                         $("section").append("<h1>" + data[n].name + "</h1><h4>" + data[n].director + " (" + data[n].year + ')</h4><img src="images/' + data[n].pic_lg + '"><p>' + data[n].description + '</p><h3>Trailer</h3><p>Watch trailer <a href="' + data[n].trailer + '" target="_blank">HERE</a><p>');
